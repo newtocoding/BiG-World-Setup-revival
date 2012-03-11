@@ -16,24 +16,24 @@
 /**
  * 
  */
-package imm.william.bigworldsetup.test;
-
-import static org.junit.Assert.*;
-
-import org.junit.*;
-import imm.william.bigworldsetup.*;
+package imm.william.bigworldsetup;
 
 /**
  * @author William Imm
- * 
- * This test is designed to test the main program and class, just to see if it works.
  *
+ *	What catagory this mod is in.
  */
-public class TestMain {
-
-	@Test
-	public void testMain() {
-		BiGSetup bsetup = new BiGSetup();
+public enum ModGroup {
+	BG2MegaMods("BG2 Mega Mods"),
+	BG2Stores("BG2 Stores and Items");
+	
+	private String longName;
+	
+	ModGroup(String name) {
+		this.longName = name;
 	}
-
+	
+	public String getLongName() {
+		return longName;
+	}
 }
