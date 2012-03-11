@@ -21,7 +21,6 @@
          destdir="${build}"
          debug="off">
 				<classpath>
-					<pathelement location="lib/junit/junit-4.10.jar"/>
 					<pathelement location="lib/xerces/"/>
 				</classpath>
 		</javac>
@@ -38,7 +37,6 @@
 	<target name="test" depends="dist" description="Tests everything">
 		<junit>
 			<classpath>
-				<pathelement location="lib/junit/junit-4.10.jar"/>
 				<pathelement location="dist/big-setup.jar"/>
 			</classpath>
 			<formatter type="brief" usefile="false" />
