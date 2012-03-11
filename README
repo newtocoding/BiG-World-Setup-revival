@@ -7,9 +7,7 @@ mark off ideas that I have done so far, or someone else did.
 
 It's an idea, but it's one worth pursuing.
 
-The setup uses Apache's Xerces 2 for Java for it's XML parsing libary. That is licensed under the Apache License 2.0 -
-the setup itself uses the GNU GPL 3.0.
-
-The JUNIT testing library is also used, which is licensed under the Common Public License 1.0
+The setup is licensed with the GNU GPLv3, as I believe in free software and the right to modify. This program uses
+the Xerces XML parser, which is licensed under the Apache License 2.0.
 
  - William Imm - The Ultimate in Free Computing
