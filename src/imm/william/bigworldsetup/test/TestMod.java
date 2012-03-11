@@ -42,11 +42,12 @@ public class TestMod {
 		String home = "http://www.shsforums.net/index.php?autocom=downloads&showfile=121";
 		String description = "A minimod that adds new stores, items, and encounters throughout BG2.";
 		String wnotes = "This mod is great.";
+		String version = "7.1";
 		
-		double size = 896.29;
+		double size = 0.90;
 		ModGroup mg = ModGroup.BG2Stores;
 		
-		Mod m = new Mod(name, sname, md5, dlocation, home, description, wnotes, size, mg);
+		Mod m = new Mod(name, sname, md5, dlocation, home, description, wnotes, size, mg, version);
 		
 		// Make sure everything is equal and set:
 		
@@ -59,6 +60,7 @@ public class TestMod {
 		assertEquals(m.getWilliamNotes(), wnotes);
 		assertEquals(m.getSize(), size, 0);
 		assertEquals(m.getModGroup(), mg);
+		assertEquals(m.getVersion(), version);
 		
 		// Now change the values:
 		
@@ -69,8 +71,9 @@ public class TestMod {
 		m.setHome("around the universe");
 		m.setDescription("Yet another Drizzt mod - it sucks.");
 		m.setWilliamNotes("Need I say more?");
-		m.setSize(12120.21);
+		m.setSize(250.56);
 		m.setModGroup(ModGroup.BG2MegaMods);
+		m.setVersion("2.1");
 		
 		// Again, equality checks:
 		
@@ -81,9 +84,9 @@ public class TestMod {
 		assertEquals(m.getHome(), "around the universe");
 		assertEquals(m.getDescription(), "Yet another Drizzt mod - it sucks.");
 		assertEquals(m.getWilliamNotes(), "Need I say more?");
-		assertEquals(m.getSize(), 12120.21, 0);
+		assertEquals(m.getSize(), 250.56, 0);
 		assertEquals(m.getModGroup(), ModGroup.BG2MegaMods);
-		
+		assertEquals(m.getVersion(), "2.1");
 	}
 
 }

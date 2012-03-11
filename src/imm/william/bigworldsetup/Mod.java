@@ -33,12 +33,13 @@ public class Mod {
 	String home; // Home page
 	String description; // Description
 	String wnotes; // Notes from - guess who.
-	Double size; // Size, in KB
+	Double size; // Size, in MB
 	ModGroup mg; // Mod group - is an enum
+	String version; // Mod version
 
 	public Mod(String name, String sname, String md5, String dlocation,
 			String home, String description, String wnotes, Double size,
-			ModGroup mg) {
+			ModGroup mg, String version) {
 		this.name = name;
 		this.sname = sname;
 		this.md5 = md5;
@@ -48,7 +49,33 @@ public class Mod {
 		this.wnotes = wnotes;
 		this.size = size;
 		this.mg = mg;
+		this.version = version;
 	}
+	
+	public Mod(String name, String sname, String md5, String dlocation,
+			String home, String description, String wnotes, Double size,
+			String mg, String version) {
+		this.name = name;
+		this.sname = sname;
+		this.md5 = md5;
+		this.dlocation = dlocation;
+		this.home = home;
+		this.description = description;
+		this.wnotes = wnotes;
+		this.size = size;
+		this.mg = ModGroup.valueOf(mg);
+		this.version = version;
+	}
+	
+	public String getVersion() {
+		return version;
+	}
+
+	public void setVersion(String version) {
+		this.version = version;
+	}
+
+	public Mod() { }
 
 	public String getName() {
 		return name;
@@ -120,6 +147,21 @@ public class Mod {
 
 	public void setModGroup(ModGroup mg) {
 		this.mg = mg;
+	}
+	
+	public void setModGroup(String modValue) {
+		this.mg = ModGroup.valueOf(modValue);
+	}
+	
+	@Override
+	public boolean equals(Object obj) {
+		if (obj instanceof Mod) {
+			Mod mod = (Mod)obj;
+			if (mod.name.equals(this.name)) {
+				return true;
+			}
+		}
+		return false;
 	}
 	
 }

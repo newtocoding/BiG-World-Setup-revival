@@ -21,7 +21,10 @@
          destdir="${build}"
          debug="off">
 				<classpath>
-					<pathelement location="lib/xerces/"/>
+					<pathelement location="lib/xerces/resolver.jar"/>
+					<pathelement location="lib/xerces/serializer.jar"/>
+					<pathelement location="lib/xerces/xercesImpl.jar"/>
+					<pathelement location="lib/xerces/xml-apis.jar"/>
 				</classpath>
 		</javac>
 	</target>

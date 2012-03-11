@@ -24,8 +24,26 @@ package imm.william.bigworldsetup;
  *	What catagory this mod is in.
  */
 public enum ModGroup {
+	Essentals("Essental Files"),
+	Corrections("Corrections"),
+	Improvements("Improvements"),
 	BG2MegaMods("BG2 Mega Mods"),
-	BG2Stores("BG2 Stores and Items");
+	BGT("Baldur's Gate Trilogy"),
+	BG1MegaMods("BG1 Mega Mods"),
+	BG1Quest("BG1 Quest Mods"),
+	BG1Stores("BG1 Stores and Items"),
+	BG1NPC("BG1 NPC Mods"),
+	BG1RulesTweaks("BG1 Rules & Tweaks"),
+	BG2QuestMods("BG2 Quest Mods"),
+	BG2Tatical("BG2 Tactical Mods"),
+	BG2Stores("BG2 Stores and Items"),
+	BG2NPC("BG2 NPC Mods"),
+	BG21Day("BG2 1-day NPCs"),
+	BG2BioNPC("BG2 Bioware NPC Additions"),
+	BG2Mini("BG2 Mini Mods"),
+	BG2RulesTweaks("BG2 Rules & Tweaks"),
+	KitsHla("Kits and HLA Mods"),
+	Graphics("Graphic and Portait Mods");
 	
 	private String longName;
 	

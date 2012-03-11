@@ -1,0 +1,26 @@
+<linklist>
+	<mod>
+		<name>Gavin NPC for Tutu/BGT</name>
+		<shortname>Gavin</shortname>
+		<version>8</version>
+		<md5sum>01ed073dc8be870ea30ad3bbcec426d4</md5sum>
+		<download>http://forums.gibberlings3.net/index.php?app=downloads&amp;module=display&amp;section=download&amp;do=confirm_download&amp;id=714</download>
+		<home>http://www.gibberlings3.net/gavin/</home>
+		<description>Blah blah, very well made NPC, blah blah.</description>
+		<williamsnotes>A+! Two thumbs up! Rave reviews!</williamsnotes>
+		<size>4.94</size>
+		<modgroup>BG1NPC</modgroup>
+	</mod>
+	<mod>
+		<name>Gavin NPC for BG2</name>
+		<shortname>Gavin BG2</shortname>
+		<version>TOB beta 20111125</version>
+		<md5sum>d50ea8222533d0d1950ce218ebfb9a71</md5sum>
+		<download>http://forums.gibberlings3.net/index.php?app=downloads&amp;module=display&amp;section=download&amp;do=confirm_download&amp;id=904</download>
+		<home>http://www.gibberlings3.net/gavin_bg2/index.php</home>
+		<description>Blah blah, very well made NPC, blah blah, returns for more, blah blah.</description>
+		<williamsnotes>See my opinion on Gavin NPC.</williamsnotes>
+		<size>8.6</size>
+		<modgroup>BG2NPC</modgroup>
+	</mod>
+</linklist>
