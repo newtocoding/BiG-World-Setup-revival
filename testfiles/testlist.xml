@@ -23,4 +23,40 @@
 		<size>8.6</size>
 		<modgroup>BG2NPC</modgroup>
 	</mod>
+	<mod>
+		<name>Yoshimo Romance</name>
+		<shortname>Yoshimo Romance</shortname>
+		<version>6.1 beta</version>
+		<md5sum>unknown</md5sum>
+		<download>http://forums.gibberlings3.net/index.php?app=downloads&module=display&section=download&do=confirm_download&id=897</download>
+		<home>http://forums.gibberlings3.net/index.php?app=downloads&showfile=897</home>
+		<description>Lava's YR is a project which introduce brand new romance for infamous rogue - Yoshimo.</description>
+		<williamsnotes>Don't Trust Yoshimo.</williamsnotes>
+		<size>10.3</size>
+		<modgroup>BG2NPC</modgroup>
+	</mod>
+	<mod>
+		<name>Wheels of Prophecy</name>
+		<shortname>wheels</shortname>
+		<version>2</version>
+		<md5sum>unknown</md5sum>
+		<download>http://forums.gibberlings3.net/index.php?app=downloads&module=display&section=download&do=confirm_download&id=895</download>
+		<home>http://forums.gibberlings3.net/index.php?app=downloads&showfile=895</home>
+		<description>Wheels of Prophecy adds new content, dialogue, and roleplaying options to the Throne of Bhaal expansion, giving players a chance to explore Chapter 9 in a less linear manner.</description>
+		<williamsnotes>The Wheel keeps on turning.</williamsnotes>
+		<size>1.6</size>
+		<modgroup>QUESTS</modgroup>
+	</mods>	
+	<mod>
+		<name>Garrick's Infatuation</name>
+		<shortname>Garrick's Infatuation</shortname>
+		<version>091711 Beta</version>
+		<md5sum>unknown</md5sum>
+		<download>http://forums.gibberlings3.net/index.php?app=downloads&module=display&section=download&do=confirm_download&id=899</download>
+		<home>http://forums.gibberlings3.net/index.php?app=downloads&showfile=899</home>
+		<description>Garrick's Infatuation allows Gorion's foster daughter to explore a closer acquaintance with her very first biographer through a series of 25 conversations.</description>
+		<williamsnotes>Garrick is a lovely man.</williamsnotes>
+		<size>.78</size>
+		<modgroup>BG2NPC</modgroup>
+	</mods>		
 </linklist>
