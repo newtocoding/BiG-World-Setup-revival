@@ -46,7 +46,7 @@
 		<williamsnotes>The Wheel keeps on turning.</williamsnotes>
 		<size>1.6</size>
 		<modgroup>QUESTS</modgroup>
-	</mods>	
+	</mod>	
 	<mod>
 		<name>Garrick's Infatuation</name>
 		<shortname>Garrick's Infatuation</shortname>
@@ -58,5 +58,5 @@
 		<williamsnotes>Garrick is a lovely man.</williamsnotes>
 		<size>.78</size>
 		<modgroup>BG2NPC</modgroup>
-	</mods>		
+	</mod>		
 </linklist>
